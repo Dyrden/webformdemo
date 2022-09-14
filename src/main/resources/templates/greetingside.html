@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>greetings</title>
+    <style>
+        span{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    hej
+    <span th:text="${name}">navn</span>!
+    din alder er
+    <span th:text="${age}">age</span>!
+</div>
+
+</body>
+</html>
